@@ -1,11 +1,25 @@
-<div align="center">
+# Wanderlust Elite - Travel Website
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+This project is a premium travel exploration platform built with React, Tailwind CSS, and Gemini AI.
 
-  <h1>Built with AI Studio</h2>
+## Deployment on Vercel
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+To deploy this website on Vercel, follow these steps:
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+1. **Push to GitHub**: Push your code to a GitHub repository.
+2. **Import to Vercel**: Go to [Vercel](https://vercel.com) and import your repository.
+3. **Configure Framework**: Vercel should automatically detect **Vite**.
+4. **Environment Variables**:
+   - Add `GEMINI_API_KEY`: Your Google AI Studio API Key.
+5. **Build & Deploy**: Click Deploy.
 
-</div>
+### Build Settings
+- **Build Command**: `npm run build`
+- **Output Directory**: `dist`
+- **Install Command**: `npm install`
+
+## Features
+- AI-powered travel assistant (Gemini)
+- Curated luxury destinations
+- Responsive modern UI
+- Smooth animations with Framer Motion
